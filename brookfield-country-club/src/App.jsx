@@ -1,35 +1,87 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import styles from './style'
+import { avatar1,avatar2,avatar3,Beachpoint1,Beachpoint2,Beachpoint3,count1,count2,count3,Discount,gradient1,gradient2,gradient3,gradient4,gradient5, Hero,Logo,special,Luxury1,Luxury2,sponsor1,sponsor2,video,dotted,umbrella,Frame  } from "../src/assets/index";
+import { Navbar, Offers, Gallery, HeroSection, Testimonials, Holiday, Footer, Video,  Updates,Challenges, Resort} from './components';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => (
+  
+  <div className='w-full overflow-hidden'>
+      {/* Navbar Section */}
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+     <div className={`${styles.boxWidth}`}>
+          <Navbar />
+     </div>
+    </div>
 
-  return (
-    <>
+    {/* Hero Section */}
+    <div className={`${styles.flexCenter}`}>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+       <HeroSection/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+    </div>
+    
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+       <Holiday/>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
+
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+       <Challenges/>
+      </div>
+    </div>
+
+    <div className={`${styles.flexCenter}`}>
+      <div>
+       <Gallery/>
+      </div>
+    </div>
+
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+       <Offers/>
+      </div>
+    </div>
+
+
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+       <Resort/>
+      </div>
+    </div>
+
+    <div className={`${styles.flexCenter}`}>
+      <div>
+       <Video/>
+      </div>
+    </div>
+
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+       <Testimonials/>
+      </div>
+    </div>
+
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+       <Updates/>
+      </div>
+    </div>
+
+
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+       <Footer/>
+      </div>
+    </div>
+
+
+
+  </div>
+
+    
   )
-}
+
 
 export default App
