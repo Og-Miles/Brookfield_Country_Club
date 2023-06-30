@@ -34,9 +34,35 @@ button.btn{
   object-fit: contain;
   height: 100vh;
   display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../src/assets/arrow.png);
+  
+  
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+}
+
+select.classic{
+  background-image: url(../src/assets/arrow.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position:
+  calc(100% - 5px) calc(1em + 0.5px),
+  calc(100% - 15px) calc(2em + 2px),
+  calc(100% - .5em) .5em;
+ 
+}
 @-webkit-keyframes slide-left {
   0% {
     -webkit-transform: translateX(0);

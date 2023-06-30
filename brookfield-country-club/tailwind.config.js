@@ -10,6 +10,7 @@ export default {
       colors: {
         gray: "#475569",
         pgray: "#8E949F",
+        p__blue__black: "#825283A",
         active: "#3A499C"
       },
       backgroundImage: {

@@ -26,6 +26,7 @@ import umbrella from "./umbrella.png";
 import Frame from './Frame.svg'
 import Menu from './Menu.svg'
 import Close from './Close.svg'
+import arrow from './arrow.png'
 
 
 export {
@@ -57,6 +58,7 @@ export {
     Frame,
     Menu,
     Close,
+    arrow,
 
 
 };
