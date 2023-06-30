@@ -7,14 +7,15 @@ const App = () => (
   
   <div className='w-full overflow-hidden'>
       {/* Navbar Section */}
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-     <div className={`${styles.boxWidth}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} w-full`}>
+     <div className={`${styles.boxWidth} `}>
           <Navbar />
      </div>
+
     </div>
 
     {/* Hero Section */}
-    <div className={`${styles.flexCenter}`}>
+    <div className={`${styles.flexCenter} back-img `}>
       <div>
        <HeroSection/>
       </div>
@@ -23,14 +24,11 @@ const App = () => (
     <div className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
        <Holiday/>
-      </div>
-    </div>
-
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+       
        <Challenges/>
       </div>
     </div>
+
 
     <div className={`${styles.flexCenter}`}>
       <div>
@@ -41,12 +39,6 @@ const App = () => (
     <div className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
        <Offers/>
-      </div>
-    </div>
-
-
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
        <Resort/>
       </div>
     </div>
@@ -60,24 +52,10 @@ const App = () => (
     <div className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
        <Testimonials/>
-      </div>
-    </div>
-
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
        <Updates/>
-      </div>
-    </div>
-
-
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
        <Footer/>
       </div>
     </div>
-
-
-
   </div>
 
     

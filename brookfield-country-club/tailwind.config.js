@@ -12,6 +12,9 @@ export default {
         pgray: "#8E949F",
         active: "#3A499C"
       },
+      backgroundImage: {
+        'Hero': "url('/src/assets/Hero.png')",
+      },
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],
         Yeseva: ["Yeseva One", "sans-serif"],
