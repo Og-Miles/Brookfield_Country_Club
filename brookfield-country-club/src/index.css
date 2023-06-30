@@ -15,6 +15,15 @@ button {
   cursor: pointer;
 }
 
+button.btn{
+  padding: 0 20px;
+  height: 49.3px;
+
+
+}
+
+
+
 .slide-left {
 	-webkit-animation: slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -23,8 +32,9 @@ button {
 .back-img{
   background-image: url(./assets/Hero.png);
   object-fit: contain;
-  height: 90vh;
-  width: 100%;
+  height: 100vh;
+  display: flex;
+  
 }
 
 @-webkit-keyframes slide-left {
