@@ -31,9 +31,9 @@ const HeroSection = () => (
         <select name="Guests" id="guests" className={`border mr-5 ${styles.flexCenter} border-pgray py-[12px] px-[15px] outline-none cursor-pointer classic pr-5`}>
           <option value="2 Adults 1 Child " className="text-p__blue__black">2 Adults, 1 Child</option>
           <option value="1 Adult" className="text-p__blue__black">Single Adult, 1 Bed</option>
-          <option value="2 Adults. 1 Child " className="text-p__blue__black">2 Adults, 2 Bes</option>
-          <option value="2 Adults. 1 Child " className="text-p__blue__black">2 Adults, 1 Child</option>
-          <option value="2 Adults. 1 Child " className="text-p__blue__black">2 Adults, 1 Child</option>
+          <option value="2 Adults. 1 Child " className="text-p__blue__black">2 Adults, 2 Bed</option>
+          <option value="2 Adults. 1 Child " className="text-p__blue__black">2 Adults, 2 Children</option>
+          <option value="2 Adults. 1 Child " className="text-p__blue__black">Extras</option>
         </select>
       </div>
 
