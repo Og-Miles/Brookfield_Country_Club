@@ -5,7 +5,7 @@ import { Navbar, Offers, Gallery, HeroSection, Testimonials, Holiday, Footer, Vi
 
 const App = () => (
   
-  <div className='w-full overflow-hidden'>
+  <div className='w-full '>
       {/* Navbar Section */}
     <div className={`${styles.paddingX} ${styles.flexCenter} w-full`}>
      <div className={`${styles.boxWidth} `}>
@@ -21,40 +21,32 @@ const App = () => (
       </div>
     </div>
     
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`${styles.flexCenter} ${styles.boxWidth} flex justify-between`}>
        <Holiday/>
-       
+    </div>
+
+    <div className={` ${styles.boxWidth}`}>
        <Challenges/>
-      </div>
     </div>
 
-
-    <div className={`${styles.flexCenter}`}>
-      <div>
-       <Gallery/>
-      </div>
+    <div className={`${styles.boxWidth}`}>
+       <Gallery/>     
     </div>
 
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={` ${styles.boxWidth}`}>
        <Offers/>
        <Resort/>
-      </div>
     </div>
 
-    <div className={`${styles.flexCenter}`}>
-      <div>
+    <div className={`${styles.boxWidth}`}>
        <Video/>
-      </div>
     </div>
 
-    <div className={`${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={` ${styles.boxWidth}`}>
+      
        <Testimonials/>
        <Updates/>
        <Footer/>
-      </div>
     </div>
   </div>
 
