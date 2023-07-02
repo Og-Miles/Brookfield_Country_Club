@@ -5,7 +5,7 @@ import { Navbar, Offers, Gallery, HeroSection, Testimonials, Holiday, Footer, Vi
 
 const App = () => (
   
-  <div className='w-full '>
+  <div className='w-full overflow-hidden'>
       {/* Navbar Section */}
     <div className={`${styles.paddingX} ${styles.flexCenter} w-full`}>
      <div className={`${styles.boxWidth} `}>
