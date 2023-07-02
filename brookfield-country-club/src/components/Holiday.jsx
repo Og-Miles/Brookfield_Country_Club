@@ -10,8 +10,8 @@ const Holiday = () => {
      
 
      <div className={`flex-col`}>
-        <h1 className={`${styles.heading1}`}>Quality Holiday With Us</h1>
-        <p className={`${styles.paragraph}`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis voluptatum culpa fuga error corrupti accusamus consequuntur quae atque esse.</p>
+        <h1 className={`${styles.heading1}`}>Quality <br /> Holiday With Us</h1>
+        <p className={`${styles.paragraph} marg`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis voluptatum culpa fuga error corrupti accusamus consequuntur quae atque esse.</p>
         <button>Read More</button>
      </div>
      

@@ -16,6 +16,10 @@ button {
   max-width: 210px;
 }
 
+.marg{
+  margin-bottom: 25px;
+}
+
 button.btn{
   padding: 0 20px;
   height: 49.3px;
