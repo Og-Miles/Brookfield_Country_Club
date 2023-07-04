@@ -20,7 +20,7 @@ const App = () => (
        <HeroSection/>
       </div>
     </div>
-    
+         {/* Holiday Secion */}
     <div className={`${styles.flexCenter} ${styles.boxWidth} flex justify-between`}>
        <Holiday/>
     </div>
