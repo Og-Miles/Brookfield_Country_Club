@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className={ `bg-white m-2 mt-0 justify-between flex navbar w-full `}>
           <img src={Logo} alt="Logo" />          
-        <ul className='list-none sm:flex hidden justify-center  items-center flex-1'>
+        <ul className='list-none md:flex hidden justify-center  items-center flex-1'>
           {
             NavLinks.map((nav, index)=> (
             <li
@@ -29,7 +29,7 @@ const Navbar = () => {
             ))}
         </ul>
 
-        <div className='sm:flex hidden items-center justify-end cursor-pointer'>
+        <div className='sm:flex flex-1 hidden items-center justify-end cursor-pointer'>
         <RiAccountCircleLine className='w-[27px] h-[27px] text-gray mr-2 '/>
           <p className={`${styles.paragraph}`}>
                 Members Login
@@ -38,7 +38,7 @@ const Navbar = () => {
 
 
         {/* Smaller Devices */}
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='md:hidden flex flex-1 justify-end items-center'>
             <img 
             src={toggle ? Close : Menu} 
             alt="Menu" 
@@ -51,7 +51,7 @@ const Navbar = () => {
             !toggle ? "hidden" : "flex"
           } p-6 slide-left bg-active absolute top-20 right-[-106px] mx-4 my-2 min-w-[140px] flex-col z-[3]`}>
           
-        <ul className='list-none sm:hidden flex justify-center flex-col items-start flex-1'>
+        <ul className='list-none md:hidden flex justify-center flex-col items-start flex-1'>
           {
             NavLinks.map((nav, index)=> (
             <li

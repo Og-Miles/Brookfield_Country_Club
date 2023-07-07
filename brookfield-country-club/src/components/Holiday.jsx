@@ -3,10 +3,11 @@ import { Frame } from '../assets';
 
 const Holiday = () => {
   return (
-    <div className={` ${styles.marginY} ${styles.marginX} ${styles.flexCenter} flex sm:flex-row flex-col justify-between flex-1`}>
+    <div className={` ${styles.marginY} ${styles.marginX} ${styles.flexCenter} flex lg:flex-row flex-col justify-between flex-1`}>
 
-      
-      <img src={Frame} alt="frame" className='sm:max-w-[700px] max-w-[310px]'/>
+      <div>
+      <img src={Frame} alt="frame" className='sm:max-w-[700px] max-w-[310px] md:max-w-[437px]'/>
+      </div>
      
 
      <div className={`flex-col`}>
