@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { Logo, Menu, Close } from '../assets'
+import React, { useState } from 'react';
+import { Logo, Menu, Close } from '../assets';
 import styles from "../style";
 import '../constants/index';
 import {NavLinks} from '../constants/index';
-import { RiAccountCircleLine } from 'react-icons/ri'
+import { RiAccountCircleLine } from 'react-icons/ri';
 
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className={ `bg-white m-2 mt-0 justify-between flex navbar w-full `}>
           <img src={Logo} alt="Logo" />          
-        <ul className='list-none md:flex hidden justify-center  items-center flex-1'>
+        <ul className='list-none md:flex hidden justify-center  items-center flex-0.6'>
           {
             NavLinks.map((nav, index)=> (
             <li
@@ -29,7 +29,7 @@ const Navbar = () => {
             ))}
         </ul>
 
-        <div className='sm:flex flex-1 hidden items-center justify-end cursor-pointer'>
+        <div className='sm:flex flex-0.4 hidden items-center justify-end cursor-pointer'>
         <RiAccountCircleLine className='w-[27px] h-[27px] text-gray mr-2 '/>
           <p className={`${styles.paragraph}`}>
                 Members Login
