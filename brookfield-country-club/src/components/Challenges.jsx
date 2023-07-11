@@ -4,7 +4,7 @@ import { umbrella } from '../assets'
 import { Challenge } from '../constants'
 
 const CountCard = ({img, title, content}) => (
-  <div className='flex flex-col '>
+  <div className='flex flex-col'>
       <div className='flex '>
 
       <div>
@@ -24,20 +24,20 @@ const CountCard = ({img, title, content}) => (
 const Challenges = () => {
 
   return (
-    <div className={`items-ceter flex flex-1 justify-between ${styles.marginX}`}>
-      <div className='flex flex-col'>
+    <div className={`items-ceter xs:flex flex-1 justify-between ${styles.marginX}`}>
+      <div className='flex flex-col-reverse'>
 
         <div className='flex flex-col'>
           <h1 className={`${styles.heading1} text-[26px]`}>
           Always ready to take the next Challenge
           </h1>
-          <p className='w-[470px] mb-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas facere quia rerum dolorem illum exercitationem quisquam voluptatibus aspernatur eos libero?</p>
+          <p className={`w-[470px] mb-5 ${styles.paragraph}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas facere quia rerum dolorem illum exercitationem quisquam voluptatibus aspernatur eos libero?</p>
         </div>
 
-            <img src={umbrella} alt="umbrella" className='w-[350px] h-[307px] ml-[-50px]'/>
+            <img src={umbrella} alt="umbrella" className='w-[350px] h-[307px] ml-[-50px] mb-[30px]'/>
       </div>
 
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col'>
         {Challenge.map((Challenge, index) => (
           <CountCard key={Challenge.title} {...Challenge} index={index}/>
         ))}
