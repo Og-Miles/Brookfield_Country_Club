@@ -25,7 +25,7 @@ const App = () => (
        <Holiday/>
     </div>
 
-    <div className={` ${styles.boxWidth}`}>
+    <div className={` ${styles.boxWidth} `}>
        <Challenges/>
     </div>
 

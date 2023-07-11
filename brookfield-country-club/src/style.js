@@ -1,6 +1,7 @@
 const styles = {
     paragraph: "font-gray font-normal text-pgray text-[16px]  sm:max-w-[450px] max-w-[250px]",
     heading1: "font-Yeseva One sm:text-[48px] text-[32px] leadin-[62.4px] mb-[25px] sm:max-w-[450px] max-w-[250px]",
+    heading2: "font-Yeseva One sm:text-[26px] text-[16px] leadin-[62.4px] mb-[25px] sm:max-w-[450px] max-w-[250px]",
 
     boxWidth: "xl:max-w-[1280px] w-full",
     
