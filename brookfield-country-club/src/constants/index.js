@@ -62,31 +62,31 @@ export const Discounts = [
     },
 ];
 
-export const Suits = [
+export const Suites = [
     {
         img: gradient1,
         title: 'Balcony Room',
-        price: '$39.99'
+        price: 'FROM $39.99'
     },
     {
         img: gradient2,
         title: 'Sea View Room',
-        price: '$49.99'
+        price: 'FROM $49.99'
     },
     {
         img: gradient3,
         title: 'Superior Room',
-        price: '$59.99'
+        price: 'FROM $59.99'
     },
     {
         img: gradient4,
         title: 'Deluxe Room',
-        price: '$69.99'
+        price: 'FROM $69.99'
     },
     {
         img: gradient5,
         title: 'Luxury Suite Room',
-        price: '$89.99'
+        price: 'FROM $89.99'
     },
 ];
 

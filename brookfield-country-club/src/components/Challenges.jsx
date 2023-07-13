@@ -25,7 +25,7 @@ const Challenges = () => {
 
   return (
     <div className={`items-ceter xs:flex flex-1 justify-between ${styles.marginX}`}>
-      <div className='flex flex-col-reverse'>
+      <div className='flex xs:flex-col flex-col-reverse'>
 
         <div className='flex flex-col'>
           <h1 className={`${styles.heading1} text-[26px]`}>
