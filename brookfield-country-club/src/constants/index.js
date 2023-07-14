@@ -44,18 +44,21 @@ export const Challenge = [
 export const Discounts = [
     {
         img: Discount,
+        fee: 'Start From: $50.00',
         title: 'Honeymoon Package',
         content: 'Excepteur sint occaecat cupidatat proi dent in sunt.'
-
+        
     },
     {
         img: Discount,
+        fee: 'Start From: $50.00',
         title: 'Free BreakFast Package',
         content: 'Excepteur sint occaecat cupidatat proi dent in sunt.'
 
     },
     {
         img: Discount,
+        fee: 'Start From: $50.00',
         title: 'Facials Treatment',
         content: 'Excepteur sint occaecat cupidatat proi dent in sunt.'
 

@@ -5,7 +5,7 @@ import { Challenge } from '../constants'
 
 const CountCard = ({img, title, content}) => (
   <div className='flex flex-col'>
-      <div className='flex '>
+      <div className='flex'>
 
       <div>
       <img src={img} alt="counts" />

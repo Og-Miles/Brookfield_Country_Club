@@ -13,7 +13,7 @@ button {
   font-family: Roboto;
   background-color: #3A499C;
   cursor: pointer;
-  max-width: 210px;
+  min-width: 210px;
 }
 
 .marg{
