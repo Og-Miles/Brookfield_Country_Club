@@ -20,7 +20,7 @@ import Luxury1 from "./Luxury1.png";
 import Luxury2 from "./Luxury2.png";
 import sponsor1 from "./sponsor1.png";
 import sponsor2 from "./sponsor2.png";
-import video from "./video.png";
+import video from "./video.mp4";
 import dotted from "./dotted.png";
 import umbrella from "./umbrella.png";
 import Frame from './Frame.svg'
