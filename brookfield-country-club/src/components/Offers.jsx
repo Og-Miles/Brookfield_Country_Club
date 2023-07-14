@@ -28,7 +28,7 @@ const Offers = () => {
             <h1 className={`${styles.heading1}`}>Beachpoint <br /> Special Offers</h1>
             <p className={`${styles.paragraph} mb-7`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolore repellat ab natus ullam ratione enim blanditiis minus nostrum atque.</p>
           </div>
-          <button className='h-[100%] md:w-[100px] mb-3'>View All Offers</button>
+          <button className='h-[100%] md:w-[100px] lg:w-fit mb-3 md:items-center'>View All Offers</button>
         </div>
 
         <div className='md:flex justify-between'>

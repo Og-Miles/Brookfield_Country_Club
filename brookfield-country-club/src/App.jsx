@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './style'
 import { avatar1,avatar2,avatar3,Beachpoint1,Beachpoint2,Beachpoint3,count1,count2,count3,Discount,gradient1,gradient2,gradient3,gradient4,gradient5, Hero,Logo,special,Luxury1,Luxury2,sponsor1,sponsor2,video,dotted,umbrella,Frame  } from "../src/assets/index";
 import { Navbar, Offers, Gallery, HeroSection, Testimonials, Holiday, Footer, Video,  Updates,Challenges, Resort} from './components';
+import RedDivider from './containers/RedDivider';
 
 const App = () => (
   
@@ -32,9 +33,12 @@ const App = () => (
     <div className={`${styles.boxWidth}`}>
        <Gallery/>     
     </div>
-
+         {/* Red divider */}
     <div className={` ${styles.boxWidth}`}>
        <Offers/>
+      <div>
+         <RedDivider/>
+      </div>
        <Resort/>
     </div>
 
