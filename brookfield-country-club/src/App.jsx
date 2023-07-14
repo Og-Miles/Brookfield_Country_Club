@@ -39,6 +39,7 @@ const App = () => (
       <div>
          <RedDivider/>
       </div>
+
        <Resort/>
     </div>
 
