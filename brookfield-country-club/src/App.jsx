@@ -33,12 +33,13 @@ const App = () => (
     <div className={`${styles.boxWidth}`}>
        <Gallery/>     
     </div>
-         {/* Red divider */}
     <div className={` ${styles.boxWidth}`}>
        <Offers/>
+         {/* Red divider */}
          <RedDivider/>
        <Resort/>
     </div>
+         {/* Red divider */}
       <RedDivider />
     <div className={`${styles.boxWidth}`}>
        <Video/>

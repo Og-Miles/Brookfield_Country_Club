@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 import { video } from '../../assets';
 import './video.css';
+import styles from '../../style';
 
 const Video = () => {
   const vidRef = React.useRef();
@@ -25,10 +26,14 @@ const Video = () => {
     controls = {false}
     muted
     />
-    <div className="app__video-overlay flex__center ">
-      <div className="app__video-overlay_circle flex__center"
+    <div className="app__video-overlay flex flex-col items-center justify-center">
+      <div className='justify center'>
+        <h1 className={`text-[14px] lg:text-[48px] font-Yeseva One text-white mb-3 max-w-[1085px]`}>View the Experience right before you live it</h1>
+      </div>
+      <div className="app__video-overlay_circle flex items-center justify-center"
       onClick={handleVideo}
       >
+        
         {playVideo
           ?<BsPauseFill color='#fff' fontSize={30}/>
           :<BsFillPlayFill color='#fff' fontSize={30}/>

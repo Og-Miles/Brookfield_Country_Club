@@ -13,6 +13,7 @@ import gradient2 from "./gradient2.png";
 import gradient3 from "./gradient3.png";
 import gradient4 from "./gradient4.png";
 import gradient5 from "./gradient5.png";
+import gradient6 from "./gradient6.png";
 import Hero from "./Hero.png";
 import Logo from "./Logo.png";
 import special from "./special.png";
@@ -45,6 +46,7 @@ export {
     gradient3,
     gradient4,
     gradient5,
+    gradient6,
     Hero,
     Logo,
     special,
