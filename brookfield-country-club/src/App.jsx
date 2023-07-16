@@ -33,7 +33,7 @@ const App = () => (
     <div className={`${styles.boxWidth}`}>
        <Gallery/>     
     </div>
-    <div className={` ${styles.boxWidth}`}>
+    <div className={` ${styles.boxWidth} `}>
        <Offers/>
          {/* Red divider */}
          <RedDivider/>
