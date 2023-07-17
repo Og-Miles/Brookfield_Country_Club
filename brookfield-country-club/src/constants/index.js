@@ -124,9 +124,9 @@ export const sponsors = [
         
 ];
 
-export const Testimonials = [
+export const Testimonials= [
     {
-        img: avatar1,
+        img: avatar3,
         name: 'Federick Adams',
         content: 'Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.'
     },
@@ -136,7 +136,7 @@ export const Testimonials = [
         content: 'Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.'
     },
     {
-        img: avatar3,
+        img: avatar1,
         name: 'Shalom Basse',
         content: 'Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.'
     },
