@@ -6,7 +6,7 @@ const TestimonialCard = ({img, name, content}) => {
     <div className='flex mb-5'>
 
     <div className='items-center justify-center flex flex-col'>
-        <div className=' border border-pgray items-center py-16 px-4 w-fit lg:w-[350px] mb-5'>
+        <div className=' border border-pgray items-center py-16 px-4 w-[300px] lg:w-[350px] mb-5'>
             <p className='text-pgray text-center'>{content}</p>
         </div>
 

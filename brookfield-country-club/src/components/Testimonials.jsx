@@ -16,7 +16,7 @@ const Testimoniale = () => {
         </div>
         {/* Testimonial Card Render */}
 
-      <div className='flex-col sm:flex-row flex justify-between items-center mt-5'>
+      <div className='flex-wrap sm:flex-row flex justify-evenly items-center mt-5'>
         {Testimonials.map((Testimonial, index) => (
           <TestimonialCard key={Testimonial.name} {...Testimonial} index={index}/>
         ))}
